@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                sh 'mkdir -p /mnt/c/Users/ASUS/devops'
+                sh 'mkdir -p /mnt/c/Users/ASUS/devops/new_file'
             }
         }
     }
